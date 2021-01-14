@@ -1,0 +1,46 @@
+Name: Daniela Delatorre
+Date: October 5 2020
+Title: Lab2 - Multithreading in C and network commands
+Description: Observations from steps 1-6
+
+
+Step1:
+Given an NxM matrix A and a MxL matrix B, part1.c creates N threads that each compute matrix multiplication for a row and stores the result in a new matrix called matrixC
+
+Step2:
+	netstat is used to display the contents of network interfaces
+	ifconfig configures network interface parameters
+	hostname displays and sets hostname of the system
+	ping sends ECHO_REQUEST datagram to a network host using ICMP protocol to elicit and ECHO_RESPONSE from the host or gateway
+	traceroute displays the route packet's trace to a network host using an IP protocol
+	telnet is a remote connection to the server at a specific port
+	host/dig performs DNS lookup
+	route manipulates network routing tables
+	arp displays and modifies the Internet-to-Ethernet translation tables used by the address resolution protocol
+
+Step3:
+	Thailand:
+		ping tourismthailand.org
+			a) packet loss: 13.0% 
+			b) RTT: 201.120
+	China:
+		ping baidu.com
+			a) packet loss: 38.5%
+			b) RTT: 586.728
+	USA:
+		ping google.com
+			a) packet loss: 0.0%
+			b) RTT: 105.004
+	c) The correlation between the packet loss and the hosts' location is that a larger packet loss occured for Thailand and China because geographically, they are located further to my end point than google servers are. Additionally, because they are further to my end than the Google servers, they also have a larger round trip time (RTT).
+
+Step4:
+	For a description check part4.c
+
+Step5:
+	The name of the file that is being requested is index.php through the path /kurose_ross/interactive/index.php 
+	The version of HTTP that the client is running is HTTP/1.1
+	This get command requests an html format of text and images. This is the base object and is the static data that can be cached in my system in case I visit the site again.
+	While running these commands, my connection timed out and returned an html formatted response telling me so.
+
+Step6:
+	When I tried to telnet my three hosts on port 80, I got an html response of the pages object. However, when I tried it on another port, it took a really long time to try to just establish a connection so I had to just quit it. 	

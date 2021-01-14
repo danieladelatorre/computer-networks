@@ -1,0 +1,27 @@
+Hello this is a message from daniela delatorre
+this is lab 6!
+Received: Packet{ header: { seq_ack: 1, len: 0, cksum: 1 }, data: "" }
+Good packet
+Random is 6sending the right seq
+sending the wrong check
+Sent ACK: 1 and CheckSum: -459990720
+Sent ACK 1, checksum -459990720
+Writing to the file 
+
+Writing to the file 
+danieladelatorre@Administrators-MacBook-Pro lab6 % ls 
+Lab6_client_barebone.c	dest.txt		source.txt
+Lab6_server_barebone.c	lab6.h
+client			server
+danieladelatorre@Administrators-MacBook-Pro lab6 % vi dest.txt
+
+
+line    2:
+E518: Unknown option: on
+Press ENTER or type command to continue
+  syntax=%                                                                      danieladelatorre@Administrators-MacBook-Pro lab6 % vi source.txt
+
+
+line    2:
+E518: Unknown option: on
+Press ENTER or type command to continue
